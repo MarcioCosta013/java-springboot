@@ -2,19 +2,27 @@ package com.marcio.domain.model;
 
 import java.math.BigDecimal;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+@Entity
 public class Conta {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(unique = true) //para dizer que esse numero vai ser unico.
     private String numeroConta;
     private String agencia;
+
+    @Column(nullable = false, scale = 13, precision = 2) //precision é as casas decimais que vai ter.
     private BigDecimal balanco;
+
+    @Column(nullable = false, scale = 13, precision = 2)
     private BigDecimal limite;
 
 

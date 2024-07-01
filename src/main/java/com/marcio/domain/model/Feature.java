@@ -1,5 +1,8 @@
 package com.marcio.domain.model;
 
-public class Feature {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Feature extends BaseItens {
     
 }

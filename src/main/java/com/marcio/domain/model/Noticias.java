@@ -1,5 +1,8 @@
 package com.marcio.domain.model;
 
-public class Noticias {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Noticias extends BaseItens {
     
 }
