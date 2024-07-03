@@ -19,10 +19,10 @@ public class Conta {
     private String numeroConta;
     private String agencia;
 
-    @Column(nullable = false, scale = 13, precision = 2) //precision é as casas decimais que vai ter.
+    @Column(nullable = false, scale = 2, precision = 13) //scale é as casas decimais que vai ter.
     private BigDecimal balanco;
 
-    @Column(nullable = false, scale = 13, precision = 2)
+    @Column(nullable = false, scale = 2, precision = 13)
     private BigDecimal limite;
 
 

@@ -15,7 +15,7 @@ public class Cartao {
     @Column(nullable = false, unique = true)
     private String numero;
 
-    @Column(scale = 13, precision = 2)
+    @Column(scale = 2, precision = 13)
     private String limite;
 
     public Long getId() {
