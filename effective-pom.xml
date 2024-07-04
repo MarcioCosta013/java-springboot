@@ -7918,6 +7918,12 @@
       <version>3.3.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.8.0</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <repositories>
     <repository>
@@ -7940,15 +7946,15 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\java</sourceDirectory>
-    <scriptSourceDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\scripts</scriptSourceDirectory>
-    <testSourceDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\test\java</testSourceDirectory>
-    <outputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes</outputDirectory>
-    <testOutputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\test-classes</testOutputDirectory>
+    <sourceDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\java</sourceDirectory>
+    <scriptSourceDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\scripts</scriptSourceDirectory>
+    <testSourceDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\test\java</testSourceDirectory>
+    <outputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes</outputDirectory>
+    <testOutputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\test-classes</testOutputDirectory>
     <resources>
       <resource>
         <filtering>true</filtering>
-        <directory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\resources</directory>
+        <directory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\resources</directory>
         <includes>
           <include>**/application*.yml</include>
           <include>**/application*.yaml</include>
@@ -7956,7 +7962,7 @@
         </includes>
       </resource>
       <resource>
-        <directory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\resources</directory>
+        <directory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\main\resources</directory>
         <excludes>
           <exclude>**/application*.yml</exclude>
           <exclude>**/application*.yaml</exclude>
@@ -7966,10 +7972,10 @@
     </resources>
     <testResources>
       <testResource>
-        <directory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\test\resources</directory>
+        <directory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\src\test\resources</directory>
       </testResource>
     </testResources>
-    <directory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target</directory>
+    <directory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target</directory>
     <finalName>backendJava-0.0.1-SNAPSHOT</finalName>
     <pluginManagement>
       <plugins>
@@ -7990,7 +7996,7 @@
               </goals>
               <configuration>
                 <projectType>application</projectType>
-                <outputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes/META-INF/sbom</outputDirectory>
+                <outputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes/META-INF/sbom</outputDirectory>
                 <outputFormat>json</outputFormat>
                 <outputName>application.cdx</outputName>
               </configuration>
@@ -8014,14 +8020,14 @@
               <configuration>
                 <verbose>true</verbose>
                 <generateGitPropertiesFile>true</generateGitPropertiesFile>
-                <generateGitPropertiesFilename>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes/git.properties</generateGitPropertiesFilename>
+                <generateGitPropertiesFilename>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes/git.properties</generateGitPropertiesFilename>
               </configuration>
             </execution>
           </executions>
           <configuration>
             <verbose>true</verbose>
             <generateGitPropertiesFile>true</generateGitPropertiesFile>
-            <generateGitPropertiesFilename>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes/git.properties</generateGitPropertiesFilename>
+            <generateGitPropertiesFilename>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes/git.properties</generateGitPropertiesFilename>
           </configuration>
         </plugin>
         <plugin>
@@ -8112,12 +8118,12 @@
                 <goal>verify</goal>
               </goals>
               <configuration>
-                <classesDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes</classesDirectory>
+                <classesDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes</classesDirectory>
               </configuration>
             </execution>
           </executions>
           <configuration>
-            <classesDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes</classesDirectory>
+            <classesDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\classes</classesDirectory>
           </configuration>
         </plugin>
         <plugin>
@@ -8466,7 +8472,7 @@
               <goal>site</goal>
             </goals>
             <configuration>
-              <outputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
+              <outputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -8482,7 +8488,7 @@
               <goal>deploy</goal>
             </goals>
             <configuration>
-              <outputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
+              <outputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -8493,7 +8499,7 @@
           </execution>
         </executions>
         <configuration>
-          <outputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
+          <outputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
           <reportPlugins>
             <reportPlugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -8505,6 +8511,6 @@
     </plugins>
   </build>
   <reporting>
-    <outputDirectory>D:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
+    <outputDirectory>d:\Arquivos\dio-java-repositorio\dio-bootcamp-santander-java\desafios\lab-restfulApi\java-springboot\target\site</outputDirectory>
   </reporting>
 </project>
