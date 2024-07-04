@@ -16,7 +16,8 @@ public class Conta {
     private Long id;
 
     @Column(unique = true) //para dizer que esse numero vai ser unico.
-    private String numeroConta;
+    private String numero;
+
     private String agencia;
 
     @Column(nullable = false, scale = 2, precision = 13) //scale é as casas decimais que vai ter.
@@ -36,10 +37,10 @@ public class Conta {
     }
     
     public String getNumeroConta() {
-        return numeroConta;
+        return numero;
     }
     public void setNumeroConta(String numeroConta) {
-        this.numeroConta = numeroConta;
+        this.numero = numeroConta;
     }
     public String getAgencia() {
         return agencia;

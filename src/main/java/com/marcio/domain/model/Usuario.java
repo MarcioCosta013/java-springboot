@@ -71,7 +71,4 @@ public class Usuario {
     public void setNoticias(List<Noticias> noticias) {
         this.noticias = noticias;
     }
-
-    
-
 }
