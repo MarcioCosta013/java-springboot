@@ -1,2 +1,2 @@
 # java-springboot
-Japa RESTful API 
+Java RESTful API 
